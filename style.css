@@ -1,0 +1,139 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  background: #2C2B3D;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+}
+
+ul a {
+    opacity: 0.5;
+}
+
+ul a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+ul,
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 200% */
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+}
+
+section {
+  width: 650px;
+  flex-shrink: 0;
+}
+
+h1 span {
+  color: #00BFA6;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+}
+
+p {
+  color: #C2C2C2;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  padding: 30px;
+}
+
+p #span-destaque {
+  color: #00BFA6;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+line-height: 28px;
+}
+
+footer {
+color: #FFF;
+text-align: center;
+font-family: JetBrains Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 200% */
+}
+
+footer a {
+  font-size: 14px;
+}
+
+#linha {
+  border: #00BFA6 1px solid;
+  width: 568.001px;
+  margin: 157px auto 27px;
+}
+
+#cadeado {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 51px;
+  height: 62px;
+  flex-shrink: 0;
+  margin: 20px;
+}
